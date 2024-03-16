@@ -1,9 +1,10 @@
-import { Button } from './components/ui/button';
+import ThemeSwitcher from './components/common/theme-switcher';
+import { ThemeProvider } from './context/theme-provider';
 
 export default function App() {
   return (
-    <div className="container flex min-h-screen items-center justify-center py-12">
-      <Button>Btn</Button>
-    </div>
+    <ThemeProvider>
+      <ThemeSwitcher />
+    </ThemeProvider>
   );
 }

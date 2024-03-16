@@ -39,5 +39,4 @@ react-vite-shadcn-starter/
 ## TODOS
 
 - [ ] Create an example UI layout
-
-- [ ] Add dark mode
+- [x] Add dark mode
