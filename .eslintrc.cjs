@@ -12,10 +12,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
   rules: {
-    'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
-    ],
+    'react-refresh/only-export-components': 'off',
     '@typescript-eslint/no-unused-vars': [
       'warn',
       {
@@ -30,7 +27,6 @@ module.exports = {
     ],
     'prettier/prettier': 'warn',
     'tailwindcss/no-custom-classname': 'off',
-    'react-refresh/only-export-components': 'off',
   },
   settings: {
     tailwindcss: {

@@ -20,20 +20,20 @@ pnpm dev
 
 ```
 react-vite-shadcn-starter/
-├── public/            # Public assets
-├── src/               # Application source code
-│   ├── config/        # Config data
-│   ├── lib/           # Utility functions
+├── public/            # public assets
+├── src/               # application source code
+│   ├── config/        # config data
+│   ├── lib/           # utility functions
 │   ├── store/         # state management data
 │   ├── context/       # context management data
-│   ├── hooks/         # Custom hooks
-│   ├── components/    # React components
+│   ├── hooks/         # custom hooks
+│   ├── components/    # react components
 │   │   ├── common/    # shared components
 │   │   └── ui/        # shadcn/ui components
-│   ├── styles/        # Application css files
-│   ├── App.tsx        # Application entry point
-│   └── main.tsx       # Main rendering file
-└── index.html         # HTML entry point
+│   ├── styles/        # application css files
+│   ├── App.tsx        # application entry point
+│   └── main.tsx       # main rendering file
+└── index.html         # html entry point
 ```
 
 ## TODOS
