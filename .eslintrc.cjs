@@ -31,6 +31,7 @@ module.exports = {
   settings: {
     tailwindcss: {
       callees: ['cn'],
+      classRegex: '.*(class|className|ClassName).*',
     },
   },
 };
