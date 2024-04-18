@@ -71,7 +71,7 @@
 }
 
 @layer base {
-  * {
+  :where(*, *::before, *::after) {
     @apply border-border;
   }
   body {
