@@ -6,7 +6,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
     'plugin:tailwindcss/recommended',
-    'plugin:prettier/recommended',
+    'prettier',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
@@ -25,7 +25,6 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
-    'prettier/prettier': 'warn',
     'tailwindcss/no-custom-classname': 'off',
   },
   settings: {
