@@ -27,5 +27,12 @@ module.exports = {
     '',
     '^[.]',
   ],
-  plugins: ['@ianvs/prettier-plugin-sort-imports'],
+  /* rules for prettier-plugin-tailwindcss */
+  tailwindFunctions: ['cn', 'twMerge', 'cva'],
+  tailwindAttributes: ['class', 'className', '.*[cC]lassName'],
+  /* plugins */
+  plugins: [
+    '@ianvs/prettier-plugin-sort-imports',
+    'prettier-plugin-tailwindcss',
+  ],
 };

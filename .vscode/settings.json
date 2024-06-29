@@ -2,9 +2,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "tailwindCSS.classAttributes": [".*(class|className|ClassName).*"],
-  "tailwindCSS.experimental.classRegex": [
-    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ]
+  "tailwindCSS.classAttributes": ["class", "className", ".*[cC]lassName"]
 }

@@ -29,7 +29,7 @@ module.exports = {
   },
   settings: {
     tailwindcss: {
-      callees: ['cn'],
+      callees: ['cn', 'twMerge', 'cva'],
       classRegex: '.*(class|className|ClassName).*',
     },
   },
