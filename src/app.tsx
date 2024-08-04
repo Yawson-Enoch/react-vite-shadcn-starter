@@ -1,5 +1,5 @@
 import ThemeSwitcher from './components/common/theme-switcher';
-import { ThemeProvider } from './context/theme-provider';
+import { ThemeProvider } from './contexts/theme-provider';
 
 export default function App() {
   return (

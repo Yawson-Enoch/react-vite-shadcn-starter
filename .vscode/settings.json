@@ -2,5 +2,10 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "tailwindCSS.classAttributes": ["class", "className", ".*[cC]lassName"]
+  "tailwindCSS.classAttributes": ["class", "className", ".*[cC]lassName"],
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": "*"
+  }
 }

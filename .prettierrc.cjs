@@ -19,7 +19,7 @@ module.exports = {
     '^@/schemas/(.*)$',
     '^@/lib/(.*)$',
     '^@/store/(.*)$',
-    '^@/context/(.*)$',
+    '^@/contexts/(.*)$',
     '^@/hooks/(.*)$',
     '^@/components/ui/(.*)$',
     '^@/components/(.*)$',
